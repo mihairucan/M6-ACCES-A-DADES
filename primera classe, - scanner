@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {  
+
+           Scanner sc = new Scanner(System.in);  //Se crea un objeto Scanner
+
+            int n=0;
+			int b=0;
+			
+			System.out.println("Entra el primer enter : ");
+			a = scan.nextInt();
+			System.out.println("Entra el segon enter : ");
+			b = scan.nextInt();
+			
+			int r = a+b;
+			System.out.println("El resultat es : " +r);
+			
+			if(r>0 && r<=5)
+			{
+				System.out.println("1");
+			}
+			else if(r>5 && r<=8)
+			{
+				System.out.println("2");
+			}
+			else if(r>8)
+			{
+				System.out.println("3");
+			}
+			else
+			{
+				System.out.println("Error");
+			}
+		}
+	}
